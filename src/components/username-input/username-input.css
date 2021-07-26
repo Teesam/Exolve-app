@@ -1,0 +1,121 @@
+.Username-input{
+    background-image: url('../asset/background.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-holder{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+#login-holder >p{
+    color: #FEC9C4;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#login{
+    padding: 2rem 3rem;
+    background-color: brown;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: .4s;
+    font-size: 1.4rem;
+}
+
+#login:hover{
+    background-color: white;
+    color: brown;
+    border: 1px solid brown;
+    box-shadow: 0px 5px 7px 0px #F79C94;
+    border-top-right-radius: unset;
+    border-top-left-radius: 50px;
+}
+
+#black-top{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#warning{
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 1370px){
+
+    .Username-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #login{
+        padding: 1rem 2rem;
+        background-color: brown;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        transition: .4s;
+        font-size: 1rem;
+    }
+    
+    #login:hover{
+        background-color: white;
+        color: brown;
+        border: 1px solid brown;
+        box-shadow: 0px 5px 7px 0px #F79C94;
+        border-top-right-radius: unset;
+        border-top-left-radius: 50px;
+    }
+    
+
+    #login-holder{
+        display: flex;
+        flex-direction: column;
+        height: 15%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #login-holder >p{
+        color: #FEC9C4;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    #warning{
+        color: red;
+    }
+}

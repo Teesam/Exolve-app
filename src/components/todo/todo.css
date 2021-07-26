@@ -1,0 +1,330 @@
+.Todo{
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0px 5px 15px 0px grey;
+    width: 100%;
+}
+
+#date-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+#date-holder > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#gmt-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#date{
+    font-size: 3rem;
+}
+
+#add-todo{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #609FFF;
+    color: white;
+}
+
+#add-todo-holder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.Individual-todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    height: 3rem;
+}
+
+.Individual-todo:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: grey;
+    height: 1px;
+}
+
+#modal-top-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 5rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#modal-top-holder > p{
+    font-size: 1.5rem;
+}
+
+#modal-input{
+    width: 100%;
+    padding: .5rem .5rem;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#modal-bottom-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+#modal-cancel{
+    background-color: transparent;
+    border: none;
+    color: grey;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#modal-add{
+    background-color: transparent;
+    border: none;
+    color: #609FFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#modal-buttons-holder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.todo-resolved{
+    text-decoration: line-through;
+}
+
+.Todo-checkbox{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.Todo-title{
+    font-size: 1.2rem;
+    color: #545454;
+}
+
+#year{
+    color: #545454;
+}
+
+#date-join{
+    font-weight: 600;
+}
+
+.Checked{
+    color: rgb(93, 184, 93);
+    font-size: 1.5rem;
+}
+
+.Circle{
+    color: grey;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 1370px){
+
+    .Todo{
+        background-color: white;
+        padding: 1rem;
+        box-shadow: 0px 5px 15px 0px grey;
+        width: 100%;
+    }
+
+    #date-holder{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+    
+    #date-holder > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    #gmt-holder{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #gmt-holder > h2{
+        font-size: 1rem;
+    }
+    
+    #date{
+        font-size: 2rem;
+    }
+    
+    #add-todo{
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: #609FFF;
+        color: white;
+    }
+    
+    #add-todo-holder{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .Individual-todo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 1rem;
+        position: relative;
+        height: 3rem;
+    }
+    
+    .Individual-todo:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: grey;
+        height: 1px;
+    }
+    
+    #modal-top-holder{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 5rem;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        width: 100%;
+        }
+
+    #modal-top-holder > h1{
+        font-size: 1.5rem;
+    }
+    
+    #modal-top-holder > p{
+        font-size: 1rem;
+    }
+    
+    #modal-input{
+        width: 100%;
+        padding: .5rem .5rem;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+    
+    #modal-bottom-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+    }
+    
+    #modal-cancel{
+        background-color: transparent;
+        border: none;
+        color: grey;
+        margin-right: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    #modal-add{
+        background-color: transparent;
+        border: none;
+        color: #609FFF;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    #modal-buttons-holder{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .todo-resolved{
+        text-decoration: line-through;
+    }
+    
+    .Todo-checkbox{
+        padding: 1rem;
+        cursor: pointer;
+    }
+    
+    .Todo-title{
+        font-size: 1rem;
+        color: #545454;
+    }
+    
+    #year{
+        color: #545454;
+    }
+    
+    #date-join{
+        font-weight: 600;
+    }
+
+    #date-join > p{
+        font-size: .7rem;
+    }
+    
+    .Checked{
+        color: rgb(93, 184, 93);
+        font-size: 1rem;
+    }
+    
+    .Circle{
+        color: grey;
+        font-size: 1rem;
+    }
+    
+
+
+}

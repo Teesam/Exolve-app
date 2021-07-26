@@ -1,0 +1,71 @@
+.Body{
+    padding-bottom: 2rem;
+}
+
+#content{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#side-nav-holder{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#main-body{
+    width: 75%;
+}
+
+#cards-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1370px){
+
+    .Body{
+        padding-bottom: 2rem;
+    }
+    
+    #content{
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    #side-nav-holder{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #main-body{
+        width: 75%;
+    }
+    
+    #cards-holder{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+    
